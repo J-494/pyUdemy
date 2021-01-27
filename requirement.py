@@ -11,6 +11,7 @@ def install(package):
 os.system("clear" or "cls")
 print("Checking Requirements")
 time.sleep(2)
+install("requests")
 install("beautifulsoup4")
 install("selenium")
 install("webdriver-manager")
